@@ -19,7 +19,7 @@
 
         <div class="conteudo-senha">
             <label for="senha">Senha</label>
-            <input name="senha" type="text" id="campo-senha">
+            <input name="senha" type="text" id="campo-senha" readonly>
         </div>
 
         <div class="parametro">
@@ -63,10 +63,12 @@
                     <h4 class="parametro-senha__titulo">Força da senha</h4>
                     <div class="barra"></div>
                     <div class="forca fraca"></div>
-                    <div class="paremetro-senha-textos"></div>
-                    <p>Fraca</p>
-                    <p>Média</p>
-                    <p>Forte</p>
+                    <div class="parametro-senha-textos">
+                        <p>Fraca</p>
+                        <p>Média</p>
+                        <p>Forte</p>
+                    </div>
+                    <p class="entropia"> </p>
                 </div>
             </div>
 
@@ -77,7 +79,7 @@
 
     </section>
 
-    <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 
 </html>
